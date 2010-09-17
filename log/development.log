@@ -238,3 +238,246 @@ Processing PagesController#home (for 127.0.0.1 at 2010-09-17 15:52:59) [GET]
 Rendering template within layouts/application
 Rendering pages/home
 Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:01:11) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:03:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#pages (for 127.0.0.1 at 2010-09-17 16:03:32) [GET]
+  Parameters: {"id"=>"home"}
+
+ActionController::UnknownAction (No action responded to pages. Actions: about, contact, and home):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#pages (for 127.0.0.1 at 2010-09-17 16:03:36) [GET]
+  Parameters: {"id"=>"about"}
+
+ActionController::UnknownAction (No action responded to pages. Actions: about, contact, and home):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#pages (for 127.0.0.1 at 2010-09-17 16:03:39) [GET]
+  Parameters: {"id"=>"contact"}
+
+ActionController::UnknownAction (No action responded to pages. Actions: about, contact, and home):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:03:58) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-17 16:04:01) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-17 16:04:27) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-09-17 16:04:31) [GET]
+
+ActionController::RoutingError (No route matches "/home" with {:method=>:get}):
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  C:/Ruby187/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  C:/Ruby187/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:04:43) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:04:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-17 16:04:49) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:04:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:04:51) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-17 16:04:51) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:04:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:04:52) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-17 16:04:53) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:04:56) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:04:57) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-17 16:04:58) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 16ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:04:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:04:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:15:22) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-17 16:15:24) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/pages/help]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-17 16:15:25) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-17 16:15:26) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:15:27) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-17 16:18:01) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/pages/home]
