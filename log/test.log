@@ -8061,3 +8061,2571 @@ Rendered layouts/_stylesheets (10.0ms)
 Rendered layouts/_header (0.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+Rendering user/new
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (70.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3add0e2edc9d5df54746b2ea972c4cd65b509cbd343bb5a366371e4a350673bd', 'de68e81194342572f2dd66b9346e8153644cf958093de7d6b6b57aa650927deb', '2010-09-25 21:36:51', '2010-09-25 21:36:51', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '04b616bc1a03e68be9ba1e763a870eec6c38523bffbc9aee7952683187f3858c', 'b8208c0454660cf1775ce292e3431650f79d1fafed8798e3228770a181c6453c', '2010-09-25 21:36:52', '2010-09-25 21:36:52', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '04b616bc1a03e68be9ba1e763a870eec6c38523bffbc9aee7952683187f3858c', 'b8208c0454660cf1775ce292e3431650f79d1fafed8798e3228770a181c6453c', '2010-09-25 21:36:52', '2010-09-25 21:36:52', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 30, DB: 90) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 100ms (View: 100, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-25 23:36:52) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-25 23:36:52) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-25 23:36:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '04b616bc1a03e68be9ba1e763a870eec6c38523bffbc9aee7952683187f3858c', 'b8208c0454660cf1775ce292e3431650f79d1fafed8798e3228770a181c6453c', '2010-09-25 21:36:52', '2010-09-25 21:36:52', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:36:52) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:36:52", updated_at: "2010-09-25 21:36:52", encrypted_password: "04b616bc1a03e68be9ba1e763a870eec6c38523bffbc9aee795...", salt: "b8208c0454660cf1775ce292e3431650f79d1fafed8798e3228...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '04b616bc1a03e68be9ba1e763a870eec6c38523bffbc9aee7952683187f3858c', 'b8208c0454660cf1775ce292e3431650f79d1fafed8798e3228770a181c6453c', '2010-09-25 21:36:52', '2010-09-25 21:36:52', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:36:52) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:36:52", updated_at: "2010-09-25 21:36:52", encrypted_password: "04b616bc1a03e68be9ba1e763a870eec6c38523bffbc9aee795...", salt: "b8208c0454660cf1775ce292e3431650f79d1fafed8798e3228...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e5cbcf7fff2f647ac1786ba39d2c1cc581ba3077a6d6465b4dba0675b648f4ff', '71cc58baf1f21d5473f4fb95a2c30aabbfeb9f11fdbef6ee3e0595450ae7270b', '2010-09-25 21:36:53', '2010-09-25 21:36:53', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:36:53", updated_at: "2010-09-25 21:36:53", encrypted_password: "e5cbcf7fff2f647ac1786ba39d2c1cc581ba3077a6d6465b4db...", salt: "71cc58baf1f21d5473f4fb95a2c30aabbfeb9f11fdbef6ee3e0...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e5cbcf7fff2f647ac1786ba39d2c1cc581ba3077a6d6465b4dba0675b648f4ff', '71cc58baf1f21d5473f4fb95a2c30aabbfeb9f11fdbef6ee3e0595450ae7270b', '2010-09-25 21:36:53', '2010-09-25 21:36:53', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:36:53", updated_at: "2010-09-25 21:36:53", encrypted_password: "e5cbcf7fff2f647ac1786ba39d2c1cc581ba3077a6d6465b4db...", salt: "71cc58baf1f21d5473f4fb95a2c30aabbfeb9f11fdbef6ee3e0...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-25 23:36:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (10.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3ef19eca78ebc1780ae04e2da79658771d25cd959b4b1fce631533f6dfb24c49', 'bb5f2bcb7480ca119d963d5ac01421e3f96ade2a2b9b3a93e383aca10eaea934', '2010-09-25 21:41:47', '2010-09-25 21:41:47', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3ef19eca78ebc1780ae04e2da79658771d25cd959b4b1fce631533f6dfb24c49', 'bb5f2bcb7480ca119d963d5ac01421e3f96ade2a2b9b3a93e383aca10eaea934', '2010-09-25 21:41:47', '2010-09-25 21:41:47', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (10.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3ef19eca78ebc1780ae04e2da79658771d25cd959b4b1fce631533f6dfb24c49', 'bb5f2bcb7480ca119d963d5ac01421e3f96ade2a2b9b3a93e383aca10eaea934', '2010-09-25 21:41:47', '2010-09-25 21:41:47', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '3ef19eca78ebc1780ae04e2da79658771d25cd959b4b1fce631533f6dfb24c49', 'bb5f2bcb7480ca119d963d5ac01421e3f96ade2a2b9b3a93e383aca10eaea934', '2010-09-25 21:41:47', '2010-09-25 21:41:47', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (10.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 30, DB: 30) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 100ms (View: 100, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-25 23:41:48) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-25 23:41:48) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:41:48", updated_at: "2010-09-25 21:41:48", encrypted_password: "e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea29...", salt: "0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:41:48", updated_at: "2010-09-25 21:41:48", encrypted_password: "e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea29...", salt: "0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:41:48", updated_at: "2010-09-25 21:41:48", encrypted_password: "e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea29...", salt: "0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea291c02a49034c93', '0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81e47e5898a5bde', '2010-09-25 21:41:48', '2010-09-25 21:41:48', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-25 21:41:48", updated_at: "2010-09-25 21:41:48", encrypted_password: "e874c6486719e46eec95b17a4dc12206855dcb4c8906656ea29...", salt: "0339ed0767698876832b67863263d3fe1c02ca97113a9f26e81...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-25 23:41:48) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-25 23:41:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-25 23:41:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (20.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f1ee852640228144495928e435e7d64b8e5c0f46cbc67055b97f17a222e9b5ae', '5ef5e9ddd6558a2287a29e32e4cd690b578a68d4f7307b9bc621206d0c24053b', '2010-09-26 18:08:42', '2010-09-26 18:08:42', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 20:08:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 50ms (View: 40, DB: 60) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 110ms (View: 110, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 20:08:43) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 20:08:43) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 20:08:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6dde63cf507590', '228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f17e0ac7a0a5f80', '2010-09-26 18:08:43', '2010-09-26 18:08:43', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 20:08:43) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 18:08:43", updated_at: "2010-09-26 18:08:43", encrypted_password: "616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6...", salt: "228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f1...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6dde63cf507590', '228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f17e0ac7a0a5f80', '2010-09-26 18:08:43', '2010-09-26 18:08:43', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 20:08:43) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 18:08:43", updated_at: "2010-09-26 18:08:43", encrypted_password: "616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6...", salt: "228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f1...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6dde63cf507590', '228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f17e0ac7a0a5f80', '2010-09-26 18:08:43', '2010-09-26 18:08:43', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 20:08:43) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 18:08:43", updated_at: "2010-09-26 18:08:43", encrypted_password: "616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6...", salt: "228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f1...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6dde63cf507590', '228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f17e0ac7a0a5f80', '2010-09-26 18:08:43', '2010-09-26 18:08:43', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 20:08:43) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 18:08:43", updated_at: "2010-09-26 18:08:43", encrypted_password: "616c5c7de1b4021aac599462d02e254c231fba50e80a7dc2ad6...", salt: "228cb8e85a4e256d696ee49e8915d81efa3282d5482ce8404f1...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 20:08:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'e4341fc0740ad32954f6e09c8f363170e542b8069c87e0a14891054459774a3b', '204737ed2340e3bb5cb683755121f47a7a917f164ca7d6a8c6b61eb2a0176658', '2010-09-26 20:41:48', '2010-09-26 20:41:48', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:41:48) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 50ms (View: 40, DB: 50) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 22:41:48) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 22:41:48) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 110ms (View: 110, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:41:49) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:41:49) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:41:49) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12d7395a2b7fb29', '825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd232fcc39bcbec0', '2010-09-26 20:41:49', '2010-09-26 20:41:49', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:41:49", updated_at: "2010-09-26 20:41:49", encrypted_password: "f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12...", salt: "825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd2...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12d7395a2b7fb29', '825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd232fcc39bcbec0', '2010-09-26 20:41:49', '2010-09-26 20:41:49', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:41:49", updated_at: "2010-09-26 20:41:49", encrypted_password: "f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12...", salt: "825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd2...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12d7395a2b7fb29', '825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd232fcc39bcbec0', '2010-09-26 20:41:49', '2010-09-26 20:41:49', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:41:49", updated_at: "2010-09-26 20:41:49", encrypted_password: "f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12...", salt: "825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd2...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12d7395a2b7fb29', '825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd232fcc39bcbec0', '2010-09-26 20:41:49', '2010-09-26 20:41:49', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:41:49", updated_at: "2010-09-26 20:41:49", encrypted_password: "f2b514be3ccdb36c4deac8389be9c775bfa1c5317f0df0d6f12...", salt: "825ca5af5ddc7382225a445547ce566ecca2e3a09449dde7bd2...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 120ms (View: 120, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 22:41:49) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '38987cd6d25588c76c42b01224d564c16c9864f9d4f64d56ed8723a3120864ce', '2712f5df622e739714272032f122e801cda986355b7408381ff0e6add9790982', '2010-09-26 20:45:12', '2010-09-26 20:45:12', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:45:12) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 30, DB: 10) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 22:45:12) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 100ms (View: 100, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('New User', '576c0fb1cfe12773e7f632e9ee2de47f8844008e0b651c7e355312954473add3', 'bb4010643b1a9ae383c20dcc231a934eaf2772cfc5c2225708a91bb389aa272d', '2010-09-26 20:45:13', '2010-09-26 20:45:13', 'user@example.com')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:45:13) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"New User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"user@example.com"}}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=user%40example.com&user%5Bname%5D=New+User&user%5Bpassword%5D=foobar&user%5Bpassword_confirmation%5D=foobar]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:45:13) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:45:13) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4905836c6065c1d87588922913c412ca3225a264271d091a9e3351228e9eca58', '5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4a8727c009a0f6', '2010-09-26 20:45:13', '2010-09-26 20:45:13', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:45:13", updated_at: "2010-09-26 20:45:13", encrypted_password: "4905836c6065c1d87588922913c412ca3225a264271d091a9e3...", salt: "5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4905836c6065c1d87588922913c412ca3225a264271d091a9e3351228e9eca58', '5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4a8727c009a0f6', '2010-09-26 20:45:13', '2010-09-26 20:45:13', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:45:13", updated_at: "2010-09-26 20:45:13", encrypted_password: "4905836c6065c1d87588922913c412ca3225a264271d091a9e3...", salt: "5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4905836c6065c1d87588922913c412ca3225a264271d091a9e3351228e9eca58', '5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4a8727c009a0f6', '2010-09-26 20:45:13', '2010-09-26 20:45:13', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:45:13", updated_at: "2010-09-26 20:45:13", encrypted_password: "4905836c6065c1d87588922913c412ca3225a264271d091a9e3...", salt: "5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4905836c6065c1d87588922913c412ca3225a264271d091a9e3351228e9eca58', '5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4a8727c009a0f6', '2010-09-26 20:45:13', '2010-09-26 20:45:13', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:45:13", updated_at: "2010-09-26 20:45:13", encrypted_password: "4905836c6065c1d87588922913c412ca3225a264271d091a9e3...", salt: "5062e98aef8e7fe29af3df22b7ffd43be6dd7919e1b5d5c49f4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 22:45:13) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (10.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'ed15c58c06a8b6de6ec73d09b64a9f535d6fed3693d816dd3355dde8e906c3d1', '9c8b8ee1fe53c3855fa758df942bcbd7ca7f8d08af35aa7020a34e92da80a510', '2010-09-26 20:54:11', '2010-09-26 20:54:11', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:54:11) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 40ms (View: 40, DB: 30) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 22:54:11) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 22:54:11) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 100ms (View: 100, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 22:54:11) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 22:54:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('New User', '0e78150303fea981fbc5b2e0039444c892616087d63d496eb6bf15ed744bacf7', '1f660a1dba1df2e4e4dc94823d9800672390c5a4c1599e6161aaabe01fb8ac45', '2010-09-26 20:54:12', '2010-09-26 20:54:12', 'user@example.com')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:54:12) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"New User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"user@example.com"}}
+Redirected to http://test.host/users/1
+Completed in 0ms (DB: 10) | 302 Found [http://test.host/users?user%5Bemail%5D=user%40example.com&user%5Bname%5D=New+User&user%5Bpassword%5D=foobar&user%5Bpassword_confirmation%5D=foobar]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:54:12) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (10.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 22:54:12) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (10.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2b7214bf572595', '9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd35d4fd033c73b9', '2010-09-26 20:54:12', '2010-09-26 20:54:12', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:54:12", updated_at: "2010-09-26 20:54:12", encrypted_password: "b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2...", salt: "9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd3...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 10) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2b7214bf572595', '9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd35d4fd033c73b9', '2010-09-26 20:54:12', '2010-09-26 20:54:12', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:54:12", updated_at: "2010-09-26 20:54:12", encrypted_password: "b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2...", salt: "9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd3...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2b7214bf572595', '9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd35d4fd033c73b9', '2010-09-26 20:54:12', '2010-09-26 20:54:12', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:54:12", updated_at: "2010-09-26 20:54:12", encrypted_password: "b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2...", salt: "9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd3...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2b7214bf572595', '9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd35d4fd033c73b9', '2010-09-26 20:54:12', '2010-09-26 20:54:12', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 20:54:12", updated_at: "2010-09-26 20:54:12", encrypted_password: "b59eb705d0fec81210aeb4faad3c3f357b381ebb2c3d410b0f2...", salt: "9241bf3d87cb196cd1695466e9aa8b299afe31b4863e878ddd3...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 22:54:12) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4a84ea20d51ec7b8800e58f8428a3452728dcb28844c6956c2b44c88c7d5e19c', '18895fda62a6dfa3205ce1775cc68369db9c4e8f8ef40d302fd2947351d728e5', '2010-09-26 21:11:59', '2010-09-26 21:11:59', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (2.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4a84ea20d51ec7b8800e58f8428a3452728dcb28844c6956c2b44c88c7d5e19c', '18895fda62a6dfa3205ce1775cc68369db9c4e8f8ef40d302fd2947351d728e5', '2010-09-26 21:11:59', '2010-09-26 21:11:59', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '4a84ea20d51ec7b8800e58f8428a3452728dcb28844c6956c2b44c88c7d5e19c', '18895fda62a6dfa3205ce1775cc68369db9c4e8f8ef40d302fd2947351d728e5', '2010-09-26 21:11:59', '2010-09-26 21:11:59', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (2.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (1.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', 'aeb0523b704d2789e654d7a6323c73198cdeee675c82a97bbd88df28224a2cfd', '60deff669f007745065d8937880626e4efc81a0c3da3adcd15dd474453523797', '2010-09-26 21:12:00', '2010-09-26 21:12:00', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 23:12:00) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 24267ms (View: 24264, DB: 25) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 23:12:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://www.example.com/signup]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('New User', '34b776a4a43b853ae26aa6ec4f19d2f35ce0561217d0f8639349057124b0932d', '836b21301002a4d57b884cb4e90095afb4cf5ffba698a9b1ac0a2f56eb061b1a', '2010-09-26 21:12:24', '2010-09-26 21:12:24', 'user@example.com')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:12:24) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"New User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"user@example.com"}}
+Redirected to http://test.host/users/1
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/users?user%5Bemail%5D=user%40example.com&user%5Bname%5D=New+User&user%5Bpassword%5D=foobar&user%5Bpassword_confirmation%5D=foobar]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('New User', '34b776a4a43b853ae26aa6ec4f19d2f35ce0561217d0f8639349057124b0932d', '836b21301002a4d57b884cb4e90095afb4cf5ffba698a9b1ac0a2f56eb061b1a', '2010-09-26 21:12:24', '2010-09-26 21:12:24', 'user@example.com')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:12:24) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"New User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"user@example.com"}}
+Redirected to http://test.host/users/1
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/users?user%5Bemail%5D=user%40example.com&user%5Bname%5D=New+User&user%5Bpassword%5D=foobar&user%5Bpassword_confirmation%5D=foobar]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:12:24) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:12:25) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d149cfff87dced', 'b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9ea82afd6c2562', '2010-09-26 21:12:25', '2010-09-26 21:12:25', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:12:25", updated_at: "2010-09-26 21:12:25", encrypted_password: "5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d...", salt: "b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d149cfff87dced', 'b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9ea82afd6c2562', '2010-09-26 21:12:25', '2010-09-26 21:12:25', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:12:25", updated_at: "2010-09-26 21:12:25", encrypted_password: "5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d...", salt: "b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d149cfff87dced', 'b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9ea82afd6c2562', '2010-09-26 21:12:25', '2010-09-26 21:12:25', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:12:25", updated_at: "2010-09-26 21:12:25", encrypted_password: "5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d...", salt: "b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d149cfff87dced', 'b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9ea82afd6c2562', '2010-09-26 21:12:25', '2010-09-26 21:12:25', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:12:25", updated_at: "2010-09-26 21:12:25", encrypted_password: "5820fc262c5161d3a03a9cc497f375c492dea0b6f2b78d2099d...", salt: "b76b494aa7bed09d7cba2aefb8bf87d2440eac9be78b71faca9...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 120ms (View: 120, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 23:12:25) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."email" = 'bar@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."email" = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (10.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE ("users"."email" IS NULL) LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'the_user@foo.bar.org') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'first.last@foo.jp') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@foo,com') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user_at_foo.org') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example.user@foo.') LIMIT 1[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'tode@toderistov.com')[0m
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '59f3bc840d2fa1682da9bf5132756d5c8c45222c96c75b7aeeda7bea320149c9', '444ed08ab699d99ae82262f0a500298de71b14b499ad946328609cc95b9844e7', '2010-09-26 21:16:06', '2010-09-26 21:16:06', 'TODE@TODERISTOV.COM')[0m
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'tode@toderistov.com') LIMIT 1[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 23:16:06) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 24360ms (View: 24350, DB: 10) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 23:16:30) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 23:16:30) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 23:16:30) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 23:16:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /about with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+REQUESTING PAGE: GET /help with {} and HTTP headers {"HTTP_REFERER"=>"/about"}
+
+
+Processing PagesController#help (for 127.0.0.1 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (10.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/help]
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/help"}
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://www.example.com/contact]
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+REQUESTING PAGE: GET /signup with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 20ms (View: 20, DB: 0) | 200 OK [http://www.example.com/signup]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('New User', 'a877ab840ef8f79c07f40a0046c587fc5960203e9a24a97240f43e69f4e8e5d9', '1f1b2e5331e7da7f5e36d40117090342716302ab829c354799b6b2f83af7e706', '2010-09-26 21:16:31', '2010-09-26 21:16:31', 'user@example.com')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:16:31) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"New User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"user@example.com"}}
+Redirected to http://test.host/users/1
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/users?user%5Bemail%5D=user%40example.com&user%5Bname%5D=New+User&user%5Bpassword%5D=foobar&user%5Bpassword_confirmation%5D=foobar]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'user@example.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('New User', 'a877ab840ef8f79c07f40a0046c587fc5960203e9a24a97240f43e69f4e8e5d9', '1f1b2e5331e7da7f5e36d40117090342716302ab829c354799b6b2f83af7e706', '2010-09-26 21:16:31', '2010-09-26 21:16:31', 'user@example.com')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:16:31) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"New User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"user@example.com"}}
+Redirected to http://test.host/users/1
+Completed in 0ms (DB: 0) | 302 Found [http://test.host/users?user%5Bemail%5D=user%40example.com&user%5Bname%5D=New+User&user%5Bpassword%5D=foobar&user%5Bpassword_confirmation%5D=foobar]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:16:31) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-09-26 23:16:31) [POST]
+  Parameters: {"action"=>"create", "controller"=>"users", "user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5970f292f1d702', 'b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037f3fe4553c5c40', '2010-09-26 21:16:31', '2010-09-26 21:16:31', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:16:31", updated_at: "2010-09-26 21:16:31", encrypted_password: "96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5...", salt: "b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5970f292f1d702', 'b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037f3fe4553c5c40', '2010-09-26 21:16:31', '2010-09-26 21:16:31', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:16:31", updated_at: "2010-09-26 21:16:31", encrypted_password: "96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5...", salt: "b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (10.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5970f292f1d702', 'b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037f3fe4553c5c40', '2010-09-26 21:16:31', '2010-09-26 21:16:31', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:16:31", updated_at: "2010-09-26 21:16:31", encrypted_password: "96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5...", salt: "b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/users/1]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'toderistov@hotmail.com') LIMIT 1[0m
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "created_at", "updated_at", "email") VALUES('Tode Ristov', '96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5970f292f1d702', 'b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037f3fe4553c5c40', '2010-09-26 21:16:31', '2010-09-26 21:16:31', 'toderistov@hotmail.com')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Tode Ristov", email: "toderistov@hotmail.com", created_at: "2010-09-26 21:16:31", updated_at: "2010-09-26 21:16:31", encrypted_password: "96dddd39dfa92963ee9029a5e0d43106428d7cbe2cd0bca31e5...", salt: "b7124adf465b5694cd409bc16d312f9b0f293bc6e98a7f2c037...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#help (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"help", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/help
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/help]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (110.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 110ms (View: 110, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-09-26 23:16:31) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
