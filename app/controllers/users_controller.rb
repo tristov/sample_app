@@ -12,6 +12,10 @@ class UsersController < ApplicationController
       redirect_to user_path(@user)
     else
       @title = "Sign up"
+      #Exercise 8.6.3 start
+      @user.password = nil
+      @user.password_confirmation = nil
+      #Exercise 8.6.3 end
       render :new
     end
   end

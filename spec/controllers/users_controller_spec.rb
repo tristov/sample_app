@@ -8,40 +8,66 @@ describe UsersController do
       @user = Factory(:user)
       # Arrange for User.find(params[:id]) to find the right user.
       User.stub!(:find, @user.id).and_return(@user)
+      # JAs mu go dodavov get :show oti se povtoruva vo sekoe
+      get :show, :id => @user
     end
     it "should be successful" do
-      get :show, :id => @user
+      #get :show, :id => @user
       response.should be_success
     end
     it "should have right title"do
-      get :show, :id => @user
+      #get :show, :id => @user
       response.should have_tag("title", /#{@user.name}/)
     end
     it "should include the user's name" do
-      get :show, :id => @user
+      #get :show, :id => @user
       response.should have_tag("h2", /#{@user.name}/)
     end
     it "should have a profile image"do
-      get :show, :id => @user
+      #get :show, :id => @user
       response.should have_tag("h2>img", :class => "gravatar")
     end
   end
 
-  #Delete these examples and add some real ones
-  it "should use UsersController" do
-    controller.should be_an_instance_of(UsersController)
-  end
-
-
   describe "GET 'new'" do
-    it "should be successful" do
+    #jas mu go dodadov ova before
+    #za da ne se pishuva get :new postojano
+    before(:each) do
       get :new
+    end
+
+    it "should be successful" do
+      #get :new
       response.should be_success
     end
     it "should have the right title" do
-      get :new
+      #get :new
       response.should have_tag("title", /Sign up/)
     end
+    #Exercise 8.6.2 start
+    it "should have a name field" do
+      #get :new
+      response.should have_tag("input[name=?][type=?]",
+        "user[name]", "text")
+    end
+    it "should have the email field" do
+      #get :new
+      response.should have_tag("input[name=?][type=?]",
+        "user[email]", "text")
+    end
+
+    it "should have a password field" do
+      #get :new
+      response.should have_tag("input[name=?][type=?]",
+        "user[password]", "password")
+    end
+
+    it "should have a password confirmation field"do
+      #get :new
+      response.should have_tag("input[name=?][type=?]",
+        "user[password_confirmation]", "password")
+    end
+    #Exercise 8.6.2 end
   end
 
   describe "POST 'create'" do
