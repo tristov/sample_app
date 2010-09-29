@@ -6,11 +6,13 @@ describe "Users" do
     describe "failure" do
 
       it "should not make a new user" do
-        visit signup_path
-        click_button
-        response.should render_template('users/new')
-        response.should have_tag("div#errorExplanation")
-      end#.should_not change(User, :count)
+        lambda do
+          visit signup_path
+          click_button
+          response.should render_template('users/new')
+          response.should have_tag("div#errorExplanation")
+        end.should_not change(User, :count)
+      end
     end
 
     describe "success" do
@@ -24,7 +26,7 @@ describe "Users" do
           fill_in "Confirmation", :with => "Negotino"
           click_button
           response.should render_template('users/show')
-        end#.should change(User, :count).by(1)
+        end.should change(User, :count).by(1)
       end
     end
   end

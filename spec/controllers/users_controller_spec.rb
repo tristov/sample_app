@@ -44,8 +44,8 @@ describe UsersController do
     end
   end
 
-  describe "post 'create'" do
-    describe "failure"do
+  describe "POST 'create'" do
+    describe "failure" do
       before(:each)do
         @attr={
           :name => "",
@@ -81,7 +81,7 @@ describe UsersController do
       end
       it "should have a welcome message" do
         post :create, :user => @attr
-        flash[:success].should =~ /welcome to the sample app/i
+        flash[:success].should =~ /Welcome to the Sample App/
       end
     end
   end
