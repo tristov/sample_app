@@ -43,8 +43,7 @@ class User < ActiveRecord::Base
     user = find_by_email(email)
     user && user.has_password?(submitted_password) ? user : nil
   end
-
-
+  
 private
   def encrypt_password
     unless password.nil?
@@ -61,4 +60,5 @@ private
   def secure_hash(string)
     Digest::SHA2.hexdigest(string)
   end
+  
 end
