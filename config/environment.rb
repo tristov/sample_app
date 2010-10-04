@@ -39,5 +39,6 @@ Rails::Initializer.run do |config|
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
   config.gem 'will_paginate', :version => '2.3.12'
+  config.gem 'faker',         :verion => '0.3.1'
 
 end
