@@ -57,25 +57,35 @@ describe UsersController do
       @user = Factory(:user)
       # Arrange for User.find(params[:id]) to find the right user.
       User.stub!(:find, @user.id).and_return(@user)
-      # JAs mu go dodavov get :show oti se povtoruva vo sekoe
-      get :show, :id => @user
+      # Jas mu go dodavov get :show oti se povtoruva vo sekoe
+#      get :show, :id => @user
     end
     it "should be successful" do
-      #get :show, :id => @user
+      get :show, :id => @user
       response.should be_success
     end
     it "should have right title"do
-      #get :show, :id => @user
+      get :show, :id => @user
       response.should have_tag("title", /#{@user.name}/)
     end
     it "should include the user's name" do
-      #get :show, :id => @user
+      get :show, :id => @user
       response.should have_tag("h2", /#{@user.name}/)
     end
     it "should have a profile image"do
-      #get :show, :id => @user
+      get :show, :id => @user
       response.should have_tag("h2>img", :class => "gravatar")
     end
+
+    it "should show the user's microposts" do
+      mp1 = Factory(:micropost, :user => @user, :content => "Foo bar")
+      mp2 = Factory(:micropost, :user => @user, :content => "Baz quux")
+      get :show, :id => @user
+      response.should have_tag("span.content", mp1.content)
+      response.should have_tag("span.content", mp2.content)
+      
+    end
+    
   end
 
   describe "GET 'new'" do

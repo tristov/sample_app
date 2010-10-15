@@ -14,7 +14,7 @@ namespace :db do
                  :password => "Negotino1",
                  :password_confirmation => "Negotino1")
     martina.toggle!(:admin)
-    200.times do |n|
+    20.times do |n|
       name  = Faker::Name.name
       email = "example-#{n+1}@toderistov.com"
       password  = "password"
@@ -22,6 +22,11 @@ namespace :db do
                    :email => email,
                    :password => password,
                    :password_confirmation => password)
+    end
+    User.all(:limit => 6).each do |user|
+      50.times do
+        user.microposts.create!(:content => Faker::Lorem.sentence(5))
+      end
     end
   end
 end

@@ -14,6 +14,9 @@ class User < ActiveRecord::Base
   EmailRegex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   attr_accessor :password
   attr_accessible :name, :email, :password, :password_confirmation
+
+  has_many :microposts, :dependent => :destroy
+
   validates_presence_of :name, :email
   validates_length_of   :name, :maximum => 50
   validates_format_of   :email, :with => EmailRegex
@@ -42,6 +45,10 @@ class User < ActiveRecord::Base
   def self.authenticate(email, submitted_password)
     user = find_by_email(email)
     user && user.has_password?(submitted_password) ? user : nil
+  end
+
+  def feed
+    Micropost.all(:conditions => ["user_id = ?", id])
   end
   
 private
