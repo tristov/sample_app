@@ -1,8 +1,12 @@
 <% form_for @micropost do |f| %>
   <%= f.error_messages %>
-  <div class="field">
-    <%= f.text_area :content %>
+<div class="field" onkeypress="countLeftChars()">
+    <%= f.text_area :content, :onkeyup=>"countLeftChars();"%>
   </div>
+<div>
+  <span id="charCounter"></span>
+  Characters Left
+</div>
   <div>
     <%= f.submit "Submit" %>
   </div>

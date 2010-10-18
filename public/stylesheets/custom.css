@@ -254,3 +254,19 @@ form.new_micropost textarea {
   height: 4em;
   margin-bottom: 0;
 }
+
+ol.microposts li span.gravatar{
+  border-top: 1px solid #ccc;
+  vertical-align: top;
+  width: 50px;
+}
+
+ol.microposts li span.user{
+    margin-top: 1em;
+}
+
+ol.microposts li span.timestamp{
+  display: block;
+  font-size: 65%;
+  color: #666;
+}

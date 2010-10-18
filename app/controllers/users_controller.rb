@@ -5,13 +5,13 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @microposts = @user.microposts.paginate(:page => params[:page])
+    @microposts = @user.microposts.paginate(:page => params[:page] || 1, :per_page => 5)
     @title = CGI.escapeHTML(@user.name)
   end
 
   def index
     @title = "All users"
-    @users = User.paginate(:page => params[:page])
+    @users = User.paginate(:page => params[:page] || 1, :per_page => 5)
   end
 
   def create
