@@ -2,4 +2,10 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  hello: Hello world
+  sign_in: Sign in
+  wrongEmailPassword: Wrong email/passoword combination.
+  home: Home
+  contact: Contact
+  about: About
+  help: Help

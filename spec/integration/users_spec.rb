@@ -40,7 +40,8 @@ describe "Users" do
         fill_in :password, :with => ""
         click_button
         response.should render_template('sessions/new')
-        response.should have_tag("div.flash.error", "Nevaliden email/passoword combination.")
+        response.should have_tag("div.flash.error",
+          "Wrong email/passoword combination.")
       end
     end
 
