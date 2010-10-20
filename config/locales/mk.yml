@@ -1,3 +1,9 @@
 ## YAML Template.
 mk:
-  hello: "Здраво Свету"
+  hello: Здраво Свету
+  sign_in: Логирај се
+  wrongEmailPassword: Погрешена емаил/лозинка комбинација.
+  home: Дома
+  contact: Контакт
+  about: За нас
+  help: Помош
