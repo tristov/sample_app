@@ -21,7 +21,7 @@
     </td>
     <td class="sidebar round">
       <strong>Name</strong> <%= link_to h(@user.name), @user %><br />
-      <strong>URL</strong>  <%= link_to user_path(@user), @user %>
+      <strong>URL</strong>  <%= link_to user_path(@user), @user %><br/>
       <strong>Microposts</strong> <%= @user.microposts.count %>
     </td>
 

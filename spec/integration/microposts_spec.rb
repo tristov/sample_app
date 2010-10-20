@@ -50,4 +50,37 @@ describe "Microposts" do
       lambda { click_link "delete" }.should change(Micropost, :count).by(-1)
     end
   end
+
+  describe "sidebar" do
+    before(:each)do
+      visit root_path
+    end
+
+    it"shoud contain the sidebar" do
+      response.should have_tag("img.gravatar")
+      response.should have_tag("span.user_name")
+      response.should have_tag("span.microposts")
+    end
+
+    it "should contain proper pluralization for one post"do
+      create_post(Faker::Lorem)
+      response.should have_tag("span.microposts", /1 post/)
+    end
+
+    it "should contain proper pluralization for one post"do
+      create_post(Faker::Lorem)
+      create_post(Faker::Lorem)
+      response.should have_tag("span.microposts", /2 posts/)
+    end
+
+  end
+
+  
+
+  # method for creating microposts
+  def create_post(string)
+    fill_in :micropost_content, :with => string
+    click_button
+  end
+  
 end

@@ -267,6 +267,7 @@ ol.microposts li span.user{
 
 ol.microposts li span.timestamp{
   display: block;
-  font-size: 65%;
+  font-size: 75%;
   color: #666;
+
 }

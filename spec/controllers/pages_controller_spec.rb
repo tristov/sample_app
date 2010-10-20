@@ -17,6 +17,7 @@ describe PagesController do
       get 'home'
       response.should have_tag("title",@base_title+" | Home")
     end
+
   end
 
   describe "GET 'contact'" do
@@ -53,6 +54,26 @@ describe PagesController do
       get 'help'
       response.should have_tag("title",@base_title+" | Help")
     end
+  end
+
+  describe "GET 'home'"do
+
+    before(:each)do
+      @user = test_sign_in(Factory(:user))
+#      @micropost = Factory(:micropost, :user => @user)
+    end
+
+    it"should paginate the micropost"do
+      10.times{Factory(:micropost, :user =>@user)}
+      get :home
+      response.should have_tag('div.pagination')
+      response.should have_tag('span', /previous/i)
+
+      response.should have_tag("span.current", "1")
+      response.should have_tag("a[href=?]", "/pages/home?page=2", '2')
+      response.should have_tag("a[href=?]", "/pages/home?page=2", 'Next &raquo;')
+    end
+    
   end
 
 end
