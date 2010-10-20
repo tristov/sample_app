@@ -3,7 +3,7 @@ class PagesController < ApplicationController
     @title = "Home"
     if signed_in?
       @micropost = Micropost.new
-      @feed_items = current_user.feed.paginate(:page => params[:page] || 1, :per_page => 5)
+      @feed_items = Micropost.all.paginate(:page => params[:page] || 1, :per_page => 5)
     end
     @micropost = Micropost.new if signed_in?
   end

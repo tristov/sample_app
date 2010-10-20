@@ -60,7 +60,6 @@ describe PagesController do
 
     before(:each)do
       @user = test_sign_in(Factory(:user))
-#      @micropost = Factory(:micropost, :user => @user)
     end
 
     it"should paginate the micropost"do
@@ -72,8 +71,28 @@ describe PagesController do
       response.should have_tag("span.current", "1")
       response.should have_tag("a[href=?]", "/pages/home?page=2", '2')
       response.should have_tag("a[href=?]", "/pages/home?page=2", 'Next &raquo;')
+
     end
     
-  end
+    it"should not show Delete link if micropost not from current user"do
+      @attr = {:name => "Martina Ristova",
+        :email => "martina.nikolovska@hotmail.com",
+        :password => "Negotino1",
+        :password_confirmation => "Negotino1"
+      }
+      @another_one = Factory(:user, @attr)
 
+      20.times{Factory(:micropost, :user => @another_one)}
+      get :home
+      response.should_not have_tag('span', /Delete/i)
+      
+    end
+
+    it"should show Delete link if micropost from current user"do
+      20.times{Factory(:micropost, :user => @user)}
+      get :home
+      response.should have_tag('span', /Delete/i)
+    end
+
+  end
 end
