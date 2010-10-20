@@ -7,9 +7,9 @@
       </td>
       <td>
       <span class="user">
-        <%= link_to h(feed_item.user.name), feed_item.user %>
+        <%= link_to display(feed_item.user.name), feed_item.user %>
       </span>
-      <span class="content"><%= h feed_item.content %></span>
+      <span class="content"><%= display feed_item.content %></span>
       <span class="timestamp">
         Posted <%= time_ago_in_words(feed_item.created_at) %> ago.
       </span>
