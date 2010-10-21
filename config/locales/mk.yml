@@ -39,6 +39,8 @@ mk:
   rails_tut: Rails лекции
   plese_sign_in: Молам логирајте се за да пристапите до оваа страница.
   char_left: букви останато
+  posted: Пуштено пред
+  ago: '&thinsp;'
 
   date:
     formats:
