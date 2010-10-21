@@ -63,7 +63,7 @@ describe PagesController do
     end
 
     it"should paginate the micropost"do
-      10.times{Factory(:micropost, :user =>@user)}
+      30.times{Factory(:micropost, :user =>@user)}
       get :home
       response.should have_tag('div.pagination')
       response.should have_tag('span', /previous/i)

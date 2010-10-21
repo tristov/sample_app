@@ -10,7 +10,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @title = "All users"
+    @title = t(:all_users)
     @users = User.paginate(:page => params[:page] || 1, :per_page => 5)
   end
 
@@ -18,10 +18,10 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       sign_in @user
-      flash[:success] = "Welcome to the Sample App!"
+      flash[:success] = t(:flash_welcome)
       redirect_to user_path(@user)
     else
-      @title = "Sign up"
+      @title = t(:sign_up)
       #Exercise 8.6.3 start
       @user.password = nil
       @user.password_confirmation = nil
@@ -31,7 +31,7 @@ class UsersController < ApplicationController
   end
 
   def new
-    @title = "Sign up"
+    @title = t(:sign_up)
     @user = User.new
   end
 
@@ -39,7 +39,7 @@ class UsersController < ApplicationController
     # This line is commented because its already called in
     # 'correct_user' private method
     #@user = User.find(params[:id])
-    @title = "Edit user"
+    @title = t(:edit_user)
   end
 
    def update
@@ -47,17 +47,17 @@ class UsersController < ApplicationController
     # 'correct_user' private method
     #@user = User.find(params[:id])
     if @user.update_attributes(params[:user])
-      flash[:success] = "Profile Updated."
+      flash[:success] = t(:flash_profile_upd)
       redirect_to @user
     else
-      @title = "Edit user"
+      @title = t(:edit_user)
       render 'edit'
     end
   end
 
   def destroy
     User.find(params[:id]).destroy
-    flash[:success] = "User destroyed."
+    flash[:success] = t(:user_Destroyed)
     redirect_to users_path
   end
 

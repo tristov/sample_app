@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
   
   def new
-    @title ="Sign in"
+    @title = t(:sign_in)
   end
 
   def create
@@ -9,9 +9,9 @@ class SessionsController < ApplicationController
                              params[:session][:password])
     if user.nil?
       # Create an error message and re-render the sign in form.
-      flash.now[:error] = "Wrong email/passoword combination."
-      @title = "Sign in"
-      render 'new'
+      flash.now[:error] = t(:wrongEmailPassword)
+      @title = t(:sign_in)
+      render :new
     else
       # Sign the user and redirect to the user's show page
       sign_in user

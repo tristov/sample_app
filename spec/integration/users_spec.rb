@@ -20,10 +20,10 @@ describe "Users" do
       it "should make a new user" do
         lambda do
           visit signup_path
-          fill_in "Name",         :with => "Tode Ristov"
-          fill_in "Email",        :with => "tode@toderistov.com"
-          fill_in "Password",     :with => "Negotino"
-          fill_in "Confirmation", :with => "Negotino"
+          fill_in :name,         :with => "Tode Ristov"
+          fill_in :email,        :with => "tode@toderistov.com"
+          fill_in :password,     :with => "Negotino1"
+          fill_in :confirmation, :with => "Negotino1"
           click_button
           response.should render_template('users/show')
         end.should change(User, :count).by(1)

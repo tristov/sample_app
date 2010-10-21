@@ -1,7 +1,7 @@
-<h2>Sign up</h2>
+<h2><%= t(:sign_up) %></h2>
 <% form_for(@user) do |f| %>
   <%= render :partial => 'profileForm', :locals => {:f => f} %>
   <div class="actions">
-    <%= f.submit "Sign up" %>
+    <%= f.submit t(:sign_up) %>
   </div>
 <% end %>

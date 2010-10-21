@@ -20,9 +20,9 @@
       <% end %>
     </td>
     <td class="sidebar round">
-      <strong>Name</strong> <%= link_to h(@user.name), @user %><br />
-      <strong>URL</strong>  <%= link_to user_path(@user), @user %><br/>
-      <strong>Microposts</strong> <%= @user.microposts.count %>
+      <strong><%= t(:name) %> </strong> <%= link_to h(@user.name), @user %><br />
+      <strong><%= t(:url) %></strong>  <%= link_to user_path(@user), @user %><br/>
+      <strong><%= t(:micropost) %></strong> <%= @user.microposts.count %>
     </td>
 
   </tr>

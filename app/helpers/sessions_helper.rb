@@ -32,7 +32,7 @@ module SessionsHelper
   end
   def deny_access
     store_location
-    flash[:notice] = "Please sign in to access this page."
+    flash[:notice] = t(:please_sign_in)
     redirect_to signin_path
   end
   def store_location

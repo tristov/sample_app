@@ -1,7 +1,9 @@
 ActionController::Routing::Routes.draw do |map|
+  
   map.resources :users
-  map.resources :sessions, :only => [:new, :create, :destroy]
+  map.resources :sessions,  :only => [:new, :create, :destroy]
   map.resources :microposts, :only => [:create, :destroy]
+
   map.signin  '/signin',  :controller => 'sessions', :action => 'new'
   map.signout '/signout', :controller => 'sessions', :action => 'destroy'
   # The priority is based upon order of creation: first created -> highest priority.
@@ -43,8 +45,8 @@ ActionController::Routing::Routes.draw do |map|
   # Install the default routes as the lowest priority.
   # Note: These default routes make all actions in every controller accessible via GET requests. You should
   # consider removing or commenting them out if you're using named routes and resources.
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  map.connect '/:controller/:action/:id'
+  map.connect '/:controller/:action/:id.:format'
   # You can have the root of your site routed with map.root
   # -- just remember to delete public/index.html.
   map.root :controller => 'pages', :action => 'home'
@@ -53,6 +55,6 @@ ActionController::Routing::Routes.draw do |map|
   map.help    '/help',    :controller => 'pages', :action => 'help'
   map.home    '/home',    :controller => 'pages', :action => 'home'
   map.signup  '/signup',  :controller => 'users', :action => 'new'
-  
+
 
 end

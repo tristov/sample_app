@@ -33,7 +33,7 @@ describe UsersController do
       end
       it"should have the right title"do
         get :index
-        response.should have_tag("title", /All users/)
+        response.should have_tag("title", /All users/i)
       end
       it"should have an element for each user"do
         get :index

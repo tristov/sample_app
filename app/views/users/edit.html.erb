@@ -2,9 +2,13 @@
 <% form_for(@user) do |f| %>
   <%= render :partial => 'profileForm', :locals => {:f => f} %>
   
-  <div class="actions"> <% f.submit("Update") %></div>
+  <div class="actions"> <%= f.submit t(:update) %></div>
 <% end %>
 <div>
   <%= gravatar_for @user %>
-  <a href="http://gravatar.com/emails" shape="circle" target="_blank">Change</a>
+  <a href="http://gravatar.com/emails" 
+     shape="circle"
+     target="_blank">
+     <%= t(:change)%>
+  </a>
 </div>

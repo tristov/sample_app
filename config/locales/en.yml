@@ -4,8 +4,38 @@
 en:
   hello: Hello world
   sign_in: Sign in
+  sign_out: Sign out
+  sign_up: Sign up
   wrongEmailPassword: Wrong email/passoword combination.
   home: Home
   contact: Contact
   about: About
   help: Help
+  edit_user: Edit user
+  user_destroyed: User destroyed
+  all_users: All Users
+  flash_welcome: Welcome to the Sample App
+  flash_profile_upd: Profile Updated
+  users: Users
+  profile: Profile
+  settings: Settings
+  delete: Delete
+  you_sure: Are you sure?
+  sign_up_now: Sign up now!
+  submit: Submit
+  post: Post
+  email: Email
+  password: Password
+  new_user: New user?
+  name: Name
+  confirm: Password Confirmation
+  update: Update
+  change: Change
+  url: URL
+  micropost: Micropost
+  sample_app: Sample App
+  whats_up: Whats up?
+  news: News
+  rails_tut: Rails tutorial
+  plese_sign_in: Please sign in to access this page.
+  char_left: character left

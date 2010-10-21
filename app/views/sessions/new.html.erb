@@ -1,15 +1,15 @@
-<h2>Sign in</h2>
+<h2><%= t(:sign_in) %></h2>
 <% form_for(:session, :url => sessions_path) do |f| %>
 <div class="field">
-  <%= f.label :email %><br/>
+  <%= f.label t(:email) %><br/>
   <%= f.text_field(:email) %>
 </div>
 <div class="field">
-  <%= f.label :password %><br/>
+  <%= f.label t(:password) %><br/>
   <%= f.password_field(:password) %>
 </div>
 <div class="actions">
-  <%= f.submit "Najavi Se" %>
+  <%= f.submit t(:sign_in) %>
 </div>
 <% end %>
-<p>Nov korisnik? <%= link_to "Prijavi se sega!", signup_path %></p>
+<p><%= t(:new_user) %> &nbsp; <%= link_to t(:sign_up_now), signup_path %></p>
