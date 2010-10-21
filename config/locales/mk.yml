@@ -41,6 +41,8 @@ mk:
   char_left: букви останато
   posted: Пуштено пред
   ago: '&thinsp;'
+  edit_user: Измени корисник
+  empty_list: Празна листа
 
   date:
     formats:
