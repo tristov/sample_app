@@ -261,6 +261,18 @@ describe User do
     end
 
   end
+
+  describe "relationshipa"do
+    before(:each)do
+      @user = User.create!(@attr)
+      @followed = Factory(:user)
+    end
+
+    it "shoud respond to relationships method"do
+      @user.should respond_to(:relationships)
+    end
+  end
+  
 end
 
 
