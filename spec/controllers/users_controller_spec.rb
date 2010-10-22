@@ -9,7 +9,7 @@ describe UsersController do
       it"should deny access"do
         get :index
         response.should redirect_to(signin_path)
-        flash[:notice].should =~ /sign in/
+        flash[:notice].should =~ /sign in/i
       end
     end
 
@@ -46,8 +46,10 @@ describe UsersController do
         response.should have_tag("div.pagination")
         response.should have_tag("span", "&laquo; Previous")
         response.should have_tag("span", "1")
-        response.should have_tag("a[href=?]", "/users?page=2", "2")
-        response.should have_tag("a[href=?]", "/users?page=2", "Next &raquo;")
+        response.should have_tag("a[href=?]",
+          "/users?locale=en&page=2", "2")
+        response.should have_tag("a[href=?]",
+          "/users?locale=en&page=2", "Next &raquo;")
       end
     end
   end

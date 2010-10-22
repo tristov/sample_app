@@ -1,12 +1,12 @@
 <h2><%= t(:sign_in) %></h2>
 <% form_for(:session, :url => sessions_path) do |f| %>
 <div class="field">
-  <%= f.label t(:email) %><br/>
-  <%= f.text_field(:email) %>
+  <%= f.label :email, t(:e_mail) %><br/>
+  <%= f.text_field :email %>
 </div>
 <div class="field">
-  <%= f.label t(:password) %><br/>
-  <%= f.password_field(:password) %>
+  <%= f.label :password, t(:password)  %><br/>
+  <%= f.password_field :password %>
 </div>
 <div class="actions">
   <%= f.submit t(:sign_in) %>

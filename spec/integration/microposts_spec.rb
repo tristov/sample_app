@@ -64,13 +64,13 @@ describe "Microposts" do
 
     it "should contain proper pluralization for one post"do
       create_post(Faker::Lorem)
-      response.should have_tag("span.microposts", /1 post/)
+      response.should have_tag("span.microposts", /1 post/i)
     end
 
     it "should contain proper pluralization for one post"do
       create_post(Faker::Lorem)
       create_post(Faker::Lorem)
-      response.should have_tag("span.microposts", /2 posts/)
+      response.should have_tag("span.microposts", /2 posts/i)
     end
 
   end

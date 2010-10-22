@@ -69,8 +69,8 @@ describe PagesController do
       response.should have_tag('span', /previous/i)
 
       response.should have_tag("span.current", "1")
-      response.should have_tag("a[href=?]", "/pages/home?page=2", '2')
-      response.should have_tag("a[href=?]", "/pages/home?page=2", 'Next &raquo;')
+      response.should have_tag("a[href=?]", "/pages/home?locale=en&page=2", '2')
+      response.should have_tag("a[href=?]", "/pages/home?locale=en&page=2", 'Next &raquo;')
 
     end
     
