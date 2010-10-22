@@ -40,7 +40,8 @@ mk:
   plese_sign_in: Молам логирајте се за да пристапите до оваа страница.
   char_left: букви останато
   posted: Пуштено пред
-  ago: '&thinsp;'
+  ago: .
+  edit_user: Измени корисник
 
   date:
     formats:
