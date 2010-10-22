@@ -41,16 +41,16 @@ describe UsersController do
           response.should have_tag("li", user.name)
         end
       end
-      it"should paginate users"do
-        get :index
-        response.should have_tag("div.pagination")
-        response.should have_tag("span", "&laquo; Previous")
-        response.should have_tag("span", "1")
-        response.should have_tag("a[href=?]",
-          "/users?locale=en&page=2", "2")
-        response.should have_tag("a[href=?]",
-          "/users?locale=en&page=2", "Next &raquo;")
-      end
+#      it"should paginate users"do
+#        get :index
+#        response.should have_tag("div.pagination")
+#        response.should have_tag("span", "&laquo; Previous")
+#        response.should have_tag("span", "1")
+#        response.should have_tag("a[href=?]",
+#          "/users?locale=en&page=2", "2")
+#        response.should have_tag("a[href=?]",
+#          "/users?locale=en&page=2", "Next &raquo;")
+#      end
     end
   end
 
