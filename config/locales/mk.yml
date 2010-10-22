@@ -24,7 +24,7 @@ mk:
   sign_up_now: Пријави се сега!
   submit: Поднеси
   post: Статија
-  e_mail: Емаил
+  email: Емаил
   password: Лозинка
   new_user: Нов корисник?
   name: Име
@@ -37,10 +37,10 @@ mk:
   whats_up: Што се случува?
   news: Новости
   rails_tut: Rails лекции
-  please_sign_in: Молам логирајте се за да пристапите до оваа страница.
+  plese_sign_in: Молам логирајте се за да пристапите до оваа страница.
   char_left: букви останато
   posted: Пуштено пред
-  ago: .
+  ago: '&thinsp;'
 
   date:
     formats:

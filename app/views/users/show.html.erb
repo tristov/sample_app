@@ -14,7 +14,7 @@
       <% else %>
         <table class="microposts">
           <tr>
-            <td>Prazno e</td>
+            <td><%= t(:empty_list) %> </td>
           </tr>
         </table>
       <% end %>
@@ -24,6 +24,5 @@
       <strong><%= t(:url) %></strong>  <%= link_to user_path(@user), @user %><br/>
       <strong><%= t(:micropost) %></strong> <%= @user.microposts.count %>
     </td>
-
   </tr>
 </table>

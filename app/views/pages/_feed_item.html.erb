@@ -1,27 +1,30 @@
-<tr>
-  <td>
-  <span class="gravatar" >
-    <%= link_to gravatar_for(feed_item.user), feed_item.user %>
-  </span>
-  </td>
-  <td class="micropost">
-  <span class="user">
-    <%= link_to display(feed_item.user.name), feed_item.user %>
-  </span>
-  <span class="content"><%= display feed_item.content %></span>
-  <span class="timestamp">
-    <%= t(:posted)%> <%= time_ago_in_words(feed_item.created_at) %><%= t(:ago)%>
-  </span>
-  </td>
 
-  <% if current_user?(feed_item.user) %>
-  <td>
-    <span>
-      <%= link_to t(:delete), feed_item,
-        :method => :delete,
-        :confirm => t(:you_sure)
-      %>
-    </span>
-  </td>
-  <% end %>
-</tr>
+    <tr>
+      <td>
+      <span class="gravatar" >
+        <%= link_to gravatar_for(feed_item.user), feed_item.user %>
+      </span>
+      </td>
+      <td>
+      <span class="user">
+        <%= link_to display(feed_item.user.name), feed_item.user %>
+      </span>
+      <span class="content"><%= display feed_item.content %></span>
+      <span class="timestamp">
+        <%= t(:posted)%> <%= time_ago_in_words(feed_item.created_at) %><%= t(:ago)%>.
+      </span>
+      </td>
+
+      <% if current_user?(feed_item.user) %>
+      <td>
+        <span>
+          <%= link_to t(:delete), feed_item,
+            :method => :delete,
+            :confirm => t(:you_sure)
+          %>
+        </span>
+      </td>
+      <% end %>
+    </tr>
+  
+

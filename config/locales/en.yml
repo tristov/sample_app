@@ -24,11 +24,11 @@ en:
   sign_up_now: Sign up now!
   submit: Submit
   post: Post
-  e_mail: Email
+  email: Email
   password: Password
   new_user: New user?
   name: Name
-  confirm: Confirmation
+  confirm: Password Confirmation
   update: Update
   change: Change
   url: URL
@@ -37,7 +37,7 @@ en:
   whats_up: Whats up?
   news: News
   rails_tut: Rails tutorial
-  please_sign_in: Please sign in to access this page.
+  plese_sign_in: Please sign in to access this page.
   char_left: character left
   posted: Posted
-  ago: '&nbsp;ago.'
+  ago: ago
