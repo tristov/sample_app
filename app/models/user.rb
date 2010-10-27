@@ -18,6 +18,7 @@ class User < ActiveRecord::Base
   has_many :microposts, :dependent => :destroy
   has_many :relationships,  :foreign_key => 'follower_id',
                             :dependent => :destroy
+  has_many :following, :through => :relationships, :source => :followed
 
   validates_presence_of :name, :email
   validates_length_of   :name, :maximum => 50
@@ -51,6 +52,18 @@ class User < ActiveRecord::Base
 
   def feed
     Micropost.all(:conditions => ["user_id = ?", id])
+  end
+
+  def following?(followed)
+    relationships.find_by_followed_id(followed)
+  end
+
+  def follow!(followed)
+    relationships.create!(:followed_id => followed.id)
+  end
+
+  def unfollow!(followed)
+    relationships.find_by_followed_id(followed).destroy
   end
   
 private
