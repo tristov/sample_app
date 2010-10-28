@@ -6,6 +6,7 @@ ActionController::Routing::Routes.draw do |map|
     :only => [:new, :create, :destroy]
   map.resources :microposts,
     :only => [:create, :destroy]
+  map.resources :relationships, :only =>[:create, :destroy]
 
 
   map.signin  '/signin',  :controller => 'sessions', :action => 'new'
