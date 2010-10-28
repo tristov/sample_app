@@ -3,12 +3,14 @@
     <td class="main">
       <h2 class="micropost"><%= t(:whats_up) %></h2>
       <%= render 'pages/micropost_form' %>
+
       <ol class="microposts">
       <%= render 'pages/feed' %>
       </ol>
     </td>
     <td class="sidebar round">
       <%= render 'pages/user_info' %>
+      <%= render 'pages/stats' %>
     </td>
   </tr>
 </table>
