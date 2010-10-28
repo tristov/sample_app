@@ -36,7 +36,8 @@ end
 def make_microposts
   User.all(:limit => 6).each do |user|
     10.times do
-      content = Faker::Lorem.sentences(1)
+      content = Faker::Lorem.sentence()
+      puts content
       user.microposts.create!(:content => content)
     end
   end
@@ -53,7 +54,7 @@ def make_relationships
   }
   followers.each{
     |follower|
-    user.follow!(user)
+    follower.follow!(user)
   }
 end
 
