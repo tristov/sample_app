@@ -42,6 +42,9 @@ mk:
   posted: Пуштено пред
   ago: .
   edit_user: Измени корисник
+  empty_list: Prazna Lista
+  follower: sledbenik
+  following: sleditel
 
   date:
     formats:

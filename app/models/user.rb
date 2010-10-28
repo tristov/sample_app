@@ -16,8 +16,21 @@ class User < ActiveRecord::Base
   attr_accessible :name, :email, :password, :password_confirmation
 
   has_many :microposts, :dependent => :destroy
-  has_many :relationships,  :foreign_key => 'follower_id',
-                            :dependent => :destroy
+
+  has_many :relationships,
+    :foreign_key => 'follower_id',
+    :dependent => :destroy
+  has_many :following, 
+    :through => :relationships,
+    :source => :followed
+
+  has_many :reverse_relationships,
+    :foreign_key => "followed_id",
+    :class_name => "Relationship",
+    :dependent => :destroy
+  has_many :followers,
+    :through => :reverse_relationships,
+    :source => :follower
 
   validates_presence_of :name, :email
   validates_length_of   :name, :maximum => 50

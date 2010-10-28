@@ -4,7 +4,9 @@ tmp/**/*
 doc/api
 doc/app
 db/*.sqlite3
+db/*.sql
 *.swp
+*.zip
 *~
 .DS_Store
 nbproject/*
