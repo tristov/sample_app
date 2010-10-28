@@ -65,6 +65,18 @@ class User < ActiveRecord::Base
   def feed
     Micropost.all(:conditions => ["user_id = ?", id])
   end
+
+  def following?(followed)
+    relationships.find_by_followed_id(followed)
+  end
+
+  def follow!(followed)
+    relationships.create!(:followed_id => followed.id)
+  end
+
+  def unfollow!(followed)
+    relationships.find_by_followed_id(followed).destroy
+  end
   
 private
   def encrypt_password
