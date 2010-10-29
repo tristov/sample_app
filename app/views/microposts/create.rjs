@@ -1,0 +1,2 @@
+page.replace_html :micropost_form, :home
+page.replace_html :home, "#{@user}"

@@ -45,6 +45,7 @@ mk:
   empty_list: Празна листа
   follower: следбеник
   following: следител
+  micropost_created: Micropostot e kreiran
 
   date:
     formats:
