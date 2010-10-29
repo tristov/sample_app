@@ -9,5 +9,6 @@ db/*.sql
 *.zip
 *~
 .DS_Store
+.directory
 nbproject/*
 nbproject/**/*
