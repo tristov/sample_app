@@ -19,8 +19,9 @@
 }
 
 body {
-    background-color: gray
-    
+    background-color: gray;
+    background-image: url(../images/manbg.png);
+    background-repeat: repeat;
 }
 
 #header {
