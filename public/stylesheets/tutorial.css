@@ -1,0 +1,35 @@
+/* 
+    Document   : tutorial
+    Created on : 2.11.2010, 11:18:
+    Author     : tristov
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+p.warningText {
+    color: red;
+}
+.hugeText{
+    font-weight: bold
+}
+p#footer {
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: green;
+}
+h1 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.2em;
+}
+#navigation p {
+    color: blue;
+    font-weight: bold;
+}

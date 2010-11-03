@@ -14,8 +14,14 @@
   width: 710px;
 }
 
+.debug{
+    color: orangered;
+}
+
 body {
-  background: #c0c0c0;
+    background-image: url(../images/manbg.png);
+    background-repeat: repeat;
+    
 }
 
 #header {
